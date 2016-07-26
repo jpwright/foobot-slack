@@ -1,6 +1,8 @@
 foobot-slack
 ============
 
+![Example Foobot alert](docs/alert_example.png)
+
 Setup
 -----
 

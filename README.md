@@ -14,10 +14,10 @@ You can also set this up as a bot to enable on-demand air quality graphs:
 Setup
 -----
 
-foobot-slack has the following dependencies: [slackbot](https://github.com/lins05/slackbot), [pyfoobot](https://github.com/philipbl/pyfoobot>), [matplotlib](http://matplotlib.org/), [imgurpython](https://github.com/Imgur/imgurpython>). They can all be installed using pip:
+foobot-slack has the following dependencies: [requests](http://docs.python-requests.org/en/master/), [slackbot](https://github.com/lins05/slackbot), [pyfoobot](https://github.com/philipbl/pyfoobot>), [matplotlib](http://matplotlib.org/), [imgurpython](https://github.com/Imgur/imgurpython>). They can all be installed using pip:
 
 ```
-$ pip install slackbot pyfoobot matplotlib imgurpython
+$ pip install requests slackbot pyfoobot matplotlib imgurpython
 ```
 
 You'll need to rename `config.example.txt` to `config.txt` and `slackbot_settings.example.py` to `slackbot_settings.py`. The API parameters for slack, foobot, and imgur are needed for full functionality. All other parameters can be omitted to use default settings.

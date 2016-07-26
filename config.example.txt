@@ -1,0 +1,14 @@
+[default]
+slack_webhook = SLACK_WEBHOOK_HERE
+foobot_api_key = FOOBOT_API_KEY_HERE
+foobot_email = FOOBOT_EMAIL_HERE
+foobot_password = FOOBOT_PASSWORD_HERE
+imgur_id = IMGUR_ID_HERE
+imgur_secret = IMGUR_SECRET_HERE
+averaging_period = 15
+periods_to_graph = 12
+threshold_pm = 25.0
+threshold_temperature = 26.5
+threshold_humidity = 60.0
+threshold_co2 = 30000.0
+threshold_tvoc = 500.0

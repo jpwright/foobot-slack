@@ -2,3 +2,4 @@ figure.png
 slackbot_settings.py
 config.txt
 *.pyc
+.DS_Store

@@ -31,6 +31,6 @@ You will also need to [register for a Foobot API key](https://api.foobot.io/apid
 Usage
 -----
 
-To check for alerts, run `python foobot_grapher.py`.
+To check for alerts, run `python foobot_grapher.py`. I have this set up as a cron job, but keep in mind that Foobot has an API limit of 200 requests per day.
 
-To run as a bot, run `python bot.py`.
+To run as a bot, run `python bot.py`. Invite the bot to a channel, and it will respond to any message directed at it containing the string "air quality".
